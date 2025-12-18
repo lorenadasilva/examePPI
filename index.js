@@ -28,16 +28,17 @@ function autenticar(req, res, next) {
 // CSS GLOBAL
 const css = `
 <style>
-body { font-family: Arial; background:#f2eefc; padding:20px; }
+body { font-family: Arial; background:#eaf2fb; padding:20px; }
 .container { max-width:900px; margin:auto; }
 .menu a { margin-right:15px; font-weight:bold; }
 .card { background:white; padding:20px; border-radius:8px; }
 input, select { width:100%; padding:8px; margin-bottom:10px; }
-button { padding:10px; background:#5a2ea6; color:white; border:none; cursor:pointer; }
+button { padding:10px; background:#1f6fd1; color:white; border:none; cursor:pointer; }
 table { width:100%; border-collapse:collapse; margin-top:15px; }
 th, td { border:1px solid #ddd; padding:8px; }
-th { background:#5a2ea6; color:white; }
-a { color:#5a2ea6; text-decoration:none; }
+th { background:#1f6fd1; color:white; }
+a { color:#1f6fd1; text-decoration:none; }
+
 </style>
 `;
 
